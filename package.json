@@ -1,6 +1,6 @@
 {
-  "name": "react-cropperjs",
-  "version": "1.2.5",
+  "name": "@b.taranenko/react-cropperjs",
+  "version": "1.2.6",
   "description": "Cropper as a React component",
   "main": "dist/react-cropper.js",
   "scripts": {
@@ -27,10 +27,11 @@
     "url": "https://github.com/TAPP-TV/react-cropperjs.git"
   },
   "dependencies": {
-    "cropperjs": "^0.8.1"
+    "cropperjs": "^0.8.1",
+    "prop-types": "^15.5.8"
   },
   "peerDependencies": {
-    "react": ">=0.14.0"
+    "react": "^0.14.0 || ^15.0.0 || ^16.0.0"
   },
   "devDependencies": {
     "babel": "^5.8.23",
